@@ -58,7 +58,7 @@ for example
 
 ### Other Method
   
-getDeviceList : return Set<BluetoothDevice>
+getDeviceList : return Set <<BluetoothDevice>>
 
 CheckWithEnableBluetooth : Activate Bluetooth 
 
