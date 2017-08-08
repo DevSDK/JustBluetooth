@@ -73,3 +73,13 @@ Disconnect : Disconnect Connection
         void OnRead(byte[] data);
     }
 ``` 
+
+### Issue
+
+---
+
+---
+
+1. 전송측과 수신측의 전송 속도가 같아야 데이터가 온전함(데이터가 누락되지 않음) -> 추후 개선 가능함
+
+2. 오가는 데이터가 클수록 전송과 수신측의 Interval이 길수록 안정적임. (1번의 이유 때문에) -> 개선 가능함
