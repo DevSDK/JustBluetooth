@@ -10,7 +10,7 @@ Not 1:N
 
 1. permission check
 
-2. Initalize BT Class
+2. Initialize BT Class
 
 #### Constructor Definition
 
