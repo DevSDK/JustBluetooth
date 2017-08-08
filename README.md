@@ -25,7 +25,7 @@ for example
 ```Java
 BT  bt = new BT(MainActivity.this, 500, 1024,new BT.OnReadMethod() {
                     @Override
-                    public void OnRead(String data) {
+                    public void OnRead(byte[] data) {
                       ///Do Something
                     }
                 });
